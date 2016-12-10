@@ -1,0 +1,45 @@
+*** Creating Trace Output File '2416.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"raw_block.o"'
+### List of Objects: adding '"raw_byte.o"'
+### List of Objects: adding '"raw_event.o"'
+### List of Objects: adding '"raw_idle.o"'
+### List of Objects: adding '"raw_idle_event.o"'
+### List of Objects: adding '"raw_mqueue.o"'
+### List of Objects: adding '"raw_mutex.o"'
+### List of Objects: adding '"raw_obj.o"'
+### List of Objects: adding '"raw_pend.o"'
+### List of Objects: adding '"raw_queue.o"'
+### List of Objects: adding '"raw_queue_size.o"'
+### List of Objects: adding '"raw_sched.o"'
+### List of Objects: adding '"raw_sem.o"'
+### List of Objects: adding '"raw_stm.o"'
+### List of Objects: adding '"raw_system.o"'
+### List of Objects: adding '"raw_task.o"'
+### List of Objects: adding '"raw_task_0.o"'
+### List of Objects: adding '"raw_task_queue_size.o"'
+### List of Objects: adding '"raw_task_sem.o"'
+### List of Objects: adding '"raw_tick.o"'
+### List of Objects: adding '"raw_timer.o"'
+### List of Objects: adding '"port.o"'
+### List of Objects: adding '"port_hook.o"'
+### List of Objects: adding '"cpu.o"'
+### List of Objects: adding '"irq.o"'
+### List of Objects: adding '"start.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM926EJ-S "raw_block.o" "raw_byte.o" "raw_event.o" "raw_idle.o" "raw_idle_event.o" "raw_mqueue.o" "raw_mutex.o" "raw_obj.o" "raw_pend.o" "raw_queue.o" "raw_queue_size.o" "raw_sched.o" "raw_sem.o" "raw_stm.o" "raw_system.o" "raw_task.o" "raw_task_0.o" "raw_task_queue_size.o" "raw_task_sem.o" "raw_tick.o" "raw_timer.o" "port.o" "port_hook.o" "cpu.o" "irq.o" "start.o" "main.o" --strict --scatter ".\system\2416.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\2416.map" -o "2416.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '2416.axf'
+### ADS-LD Command File: '2416.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '2416.lnp', Handle=0x00000554
+### Writing '.lnp' file
+### ADS-LD Command file '2416.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 1 errors
+### Updating obj list
+### LDADS_file() completed.

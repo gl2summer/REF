@@ -1,0 +1,7 @@
+1、将u-boot-movi-534-133-66.bin文件通过IROM_Fusing_Tool下载到SD卡（2G大小）
+2、将开发板设置为SD卡启动方式启动，通过串口与PC连接，将SecureCRT软件设置波特率为115200
+3、看到SecureCRT有打印消息后，将raw-os在MDK下编译的bin文件下载到0x32000000地址，命令如下：
+	loady 0x32000000
+4、执行了第3步命令后，选择将要下载的bin文件。在SecureCRT上选择transfer->send ymodem，然后找到要下载的bin文件
+5、等待文件下载完成以后，执行如下命令既可以运行下载的bin文件
+	go 0x32000000

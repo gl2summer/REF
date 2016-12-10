@@ -1,0 +1,22 @@
+syntax: glob
+*.o
+*.lst
+*.hex
+*.lnp
+*.crf
+*.d
+*.rar
+*.map
+*.bak
+2416.uvgui.acer
+2416.uvgui.zgq
+bsp/ADCTs_driver - ¸±±¾.c
+log.txt
+obj/output/2416.plg
+obj/output/2416.tra
+output/fff.bin
+output/2416.bin
+output/yun.bin
+2416.uvgui.*
+obj
+*.dep
